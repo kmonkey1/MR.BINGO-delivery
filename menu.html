@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mr.Bingo Delivery</title>
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-black">
+
+  <!-- Navbar -->
+  <nav class="p-4 flex justify-between items-center bg-white text-black">
+     <div class="text-xl font-bold">Mr.Bingo Delivery</div>
+     <div>
+         <a href="index.html" class="mr-4">Home</a>
+         <a href="menu.html" class="mr-4">Menu</a>
+         <a href="about.html" class="mr-4">About</a>
+         <a href="cart.html" id="cartlink" class="ml-4 text-xl">Cart <span id="cartcount">(0)</span></a>
+      </div>
+  </nav>
+  
+  <!--Menu Section -->
+  <section class="py-20 text-center">
+      <h2 class="text-3xl font-bold mb-8">Our Menu</h2>
+      
+      <div id="productcontainer" class="flex justify-center space-x-8 mb-12">
+         <!-- Groceries -->
+         <div class="bg-white text-black p-8 rounded-Ig">
+             <h3 class="text-xl fond-semibold">Groceries</h3>
+             <p>Fresh fruits, vegtables & more.</p>
+             <button onclick="addToCart('Groceries Item')"
+                  class="mt-4 inline-block bg-white text-black px-4 py-2 rounded">Add to Cart</button>
+       </div>
+       
+       <!-- KFC -->
+       <div class="bg-white text-black p-8 rounded-Ig">
+          <h3 class="text-xl font-semibold">KFC</h3>
+          <p>Fried chicken Delivered to your door !</p>
+          <button onclick="addToCart('KFC Meal')"
+               class="mt-4 inline-block bg-white text-black px-4 py-2 rounded">Add to Cart</button>
+        </div>
+    </div>
+  
+    
+ 
+       
+       
