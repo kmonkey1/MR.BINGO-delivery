@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mr. Bingo Delivery - Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+    <h1>Mr. Bingo Delivery</h1>
+    <div>
+        <a href="index.html">Home</a> |
+        <a href="menu.html">Menu</a>
+    </div>
+</nav>
+
+<section>
+    <h2>Checkout</h2>
+    <div id="cartSummary"></div>
+
+    <form action="https://formsubmit.co/muldoonkyle77@gmail.com" method="POST" id="checkoutForm">
+        <input type="text" name="Name" placeholder="Your Name" required><br>
+        <input type="text" name="Phone" placeholder="Phone Number" required><br>
+        <input type="text" name="Address" placeholder="Delivery Address" required><br>
+        <input type="hidden" name="Order" id="orderDetails">
+        <button type="submit" class="button">Place Order</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mr. Bingo Delivery - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+    <h1>Mr. Bingo Delivery</h1>
+    <div>
+        <a href="index.html">Home</a> |
+        <a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+    </div>
+</nav>
+
+<section>
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+        <div class="item">
+            <h3>Groceries</h3>
+            <button onclick="addToCart('Groceries')">Add to Cart</button>
+        </div>
+        <div class="item">
+            <h3>KFC</h3>
+            <button onclick="addToCart('KFC')">Add to Cart</button>
+        </div>
+        <div class="item">
+            <h3>Debonairs</h3>
+            <button onclick="addToCart('Debonairs')">Add to Cart</button>
+        </div>
+        <div class="item">
+            <h3>Steers</h3>
+            <button onclick="addToCart('Steers')">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
