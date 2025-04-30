@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    color: gold;
+    font-family: Arial, sans-serif;
+    margin: 0 ;
+    padding: 0 ;
+}
+
+nav {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 7em;
+}
+
+nav a {
+    color: gold;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 4em ;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+    font-size: 4em; 
+}
+
+.button {
+    background-color: gold;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 2em ;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 4em;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.item {
+    border: 1px solid gold;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+button-onclick {
+	font-size: 1em ;
+}
